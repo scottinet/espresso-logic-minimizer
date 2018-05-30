@@ -22,13 +22,13 @@
     "url": "git://github.com/scottinet/espresso-logic-minimizer.git"
   },
   "dependencies": {
-    "bindings": "^1.2.1",
-    "debug": "^2.6.3",
-    "nan": "^2.4.0",
-    "tmp": "0.0.31"
+    "bindings": "^1.3.0",
+    "debug": "^3.1.0",
+    "nan": "^2.10.0",
+    "tmp": "0.0.33"
   },
   "devDependencies": {
-    "node-gyp": "^3.4.0"
+    "node-gyp": "^3.6.2"
   },
   "engines": {
     "node": ">= 4.4.5",
