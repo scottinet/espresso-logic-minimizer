@@ -2,7 +2,7 @@
     "targets": [
         {
             "target_name": "EspressoLogicMinimizer",
-            "cflags": ["-std=c99"],
+            "cflags": ["-std=c99", "-Wno-misleading-indentation", "-Wno-unused-result", "-Wno-format-overflow", "-Wno-implicit-fallthrough"],
             "sources": [
                 "bridge/addon.cc",
                 "bridge/bridge.c",

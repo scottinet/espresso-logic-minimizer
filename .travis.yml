@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-- '4'
+- '6'
+- '8'
+- '10'
+- '12'
 addons:
   apt:
     sources:
@@ -14,7 +17,7 @@ deploy:
   provider: npm
   email: seb.cottinet@gmail.com
   api_key:
-    secure: hCjQu9WFmkpxv75G5qghlCzuHeEfzx4FTjv5RJcqr3dR736S5j/JvBRrkGeX7SEgih5/v4oByuStTe0+yEn7kc73YjSty32jVZrfS+NHkOSdDwtCxAxdppVDtaf6j9BOKT1KpjesJkYdNDjIr1LACbpV+3s8BuRfmqp0gsIMyrSL04jIOEvMowgOQ5RIn8RdcWSz2OUlGHiQM/CL6rR0y7ziBinUyKHzWdsjZZfKq29WfjFUo9h2nppC2l0X11PAKlQE/MDQpmS0IvlnTZjg6RsZ/WaHYOiSfF5Pq3SyIAcKMI8uWJWj87iH3/xpFHjV+fuqp/vBuWA7aQzfeIYVnHT+teeDNu8X4UzY2yOTprF8/L8hd/P87IcMQDAvPeSpjjoGwUr1+PWI+5dU55TtmgOAZQiWvWIPSTBO+Ee4hz9S/Xs+A5fL6vQ/g4ZmcPhWEvQ+YMvQKwpnO55ROI5Aszm25LLjUBx4HzhXETp5R88dxne4n96kzMHGiKI7ysz1UB8AzwMhH6lq3ejhu/Ocm3fU4AiRrdr3+F/HWBTNCYMQytSDbY/pDU9fFkAmdyorjh0c3vWDMCleRJViJmaiysshhduqjI9jE4zK1ikb0S6T6hQASgyq4y1AvR6ohIAy5lU+MBlvvwUrqx9MG3xOp7SDNViEdJ0G55Lk/yscPG0=
+    secure: ZZ+eVrRwDXnr9LpRIX8XJ+/gs7HhAEcvL08m37UEBHt5c9ejazXkJgsUZeTnQK8PJGorXjNwi3jHT7NOBgrzk78iioeNhWk4Y91XNuChybsJcbmkTVfSAeQQJFEC/XjHM+vsh8fjkRx7jUvMxQryD+JCFiUvj9sxPPgm8+J6rcpJpkYMN63iwrBFqfUIquu3edvjr2ZZbySGsw/kPZ2/eeHCgCEqJhjkHZNRGxwHCErk8dU3WFY/R3Hqe/NiEYsw3FhLD/k7wkzup3pdF1xb1lE5I8iDvj695dl7cyDssCcfboPxLYuzK8GowUwCweLGBNzRLu9vGANkO84j/AmCF0DsOP+36dNP0jIy5MmOKZ9uvz0uyyeiF4QnhoIcrSpolCQo5TSzWY0OGduo1LfT477Fr8NoOBMayHGjYeae1X9Lt2f7sAxFtEHT/C/n1TOLfkGzddZb6OOBeGO2GhPr5J7Lyka8/xEs+rBPJFXCo9p7CeS/AVRK8UcqBOGJdjIZPvCEbqcs+BBB+XibiVya2xeQ/P+CavNYW9G5ggftKXzmlXibzAENdKSFOdbwnp3XjSHNJSe4jdOZndMvuVKFUjXXwtdKwb4o6MhTNRvLbTX+gXh5DoB9e857mXuxs7NTeGKeeiIwezNgDQSHhRMn3UhiMmBnlcwWtn4RVHrvqqs=
   on:
     repo: scottinet/espresso-logic-minimizer
     branch: master

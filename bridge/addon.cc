@@ -23,8 +23,11 @@ NAN_METHOD(minimize_from_data) {
 
   truthTable = new char*[length];
 
+  v8::Local<v8::Context> context = info.GetIsolate()->GetCurrentContext();
   for(unsigned int i = 0; i < length; ++i) {
-    v8::Local<v8::String> src = array->Get(i)->ToString();
+    v8::Local<v8::String> src = array->Get(context, i)
+      .ToLocalChecked()
+      .As<v8::String>();
     Nan::Utf8String val(src);
     truthTable[i] = new char[strlen(*val)+1];
     strcpy(truthTable[i], *val);
